@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36CD51A59D268495CE331F7F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6172E124D1F80C60B45F3679 /* libPods.a */; };
 		A75D09E21A28F441007FA74A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D09E11A28F441007FA74A /* main.m */; };
 		A75D09E51A28F441007FA74A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D09E41A28F441007FA74A /* AppDelegate.m */; };
-		A75D09E81A28F441007FA74A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D09E71A28F441007FA74A /* ViewController.m */; };
 		A75D09EB1A28F441007FA74A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75D09E91A28F441007FA74A /* Main.storyboard */; };
 		A75D09ED1A28F441007FA74A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75D09EC1A28F441007FA74A /* Images.xcassets */; };
 		A75D09F01A28F441007FA74A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75D09EE1A28F441007FA74A /* LaunchScreen.xib */; };
 		A75D09FC1A28F441007FA74A /* KinveyStressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D09FB1A28F441007FA74A /* KinveyStressTests.m */; };
+		A75D0A081A28F698007FA74A /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D0A071A28F698007FA74A /* LaunchViewController.m */; };
+		A75D0A111A28F6AD007FA74A /* KStressMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D0A0A1A28F6AD007FA74A /* KStressMainViewController.m */; };
+		A75D0A121A28F6AD007FA74A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D0A0C1A28F6AD007FA74A /* NavigationController.m */; };
+		A75D0A141A28F6AD007FA74A /* KStressSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D0A101A28F6AD007FA74A /* KStressSignInViewController.m */; };
+		A7C491E51A290BF000752397 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C491E41A290BF000752397 /* AddressBook.m */; };
+		A7C491EC1A29106B00752397 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C491EB1A29106B00752397 /* Project.m */; };
+		A7E48C311A2960AA00C03AAB /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C301A2960AA00C03AAB /* Contact.m */; };
+		A7E48C3F1A2979B300C03AAB /* NSArray+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C341A2979B300C03AAB /* NSArray+MD5.m */; };
+		A7E48C401A2979B300C03AAB /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C361A2979B300C03AAB /* NSData+MD5.m */; };
+		A7E48C411A2979B300C03AAB /* NSDate+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C381A2979B300C03AAB /* NSDate+MD5.m */; };
+		A7E48C421A2979B300C03AAB /* NSDictionary+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C3A1A2979B300C03AAB /* NSDictionary+MD5.m */; };
+		A7E48C431A2979B300C03AAB /* NSNumber+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C3C1A2979B300C03AAB /* NSNumber+MD5.m */; };
+		A7E48C441A2979B300C03AAB /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C3E1A2979B300C03AAB /* NSString+MD5.m */; };
+		A7E48C491A2979F200C03AAB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C461A2979F200C03AAB /* NSData+Base64.m */; };
+		A7E48C4A1A2979F200C03AAB /* NSData+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E48C481A2979F200C03AAB /* NSData+Description.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +42,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54E91081701B82D611D1B0CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6172E124D1F80C60B45F3679 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6657CFF4C6FDD0A919F0F4AD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A75D09DC1A28F441007FA74A /* KinveyStress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveyStress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75D09E01A28F441007FA74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75D09E11A28F441007FA74A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A75D09E31A28F441007FA74A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A75D09E41A28F441007FA74A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A75D09E61A28F441007FA74A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A75D09E71A28F441007FA74A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A75D09EA1A28F441007FA74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A75D09EC1A28F441007FA74A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A75D09EF1A28F441007FA74A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A75D09F51A28F441007FA74A /* KinveyStressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinveyStressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75D09FA1A28F441007FA74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75D09FB1A28F441007FA74A /* KinveyStressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinveyStressTests.m; sourceTree = "<group>"; };
+		A75D0A051A28F67C007FA74A /* KinveyStress.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinveyStress.pch; sourceTree = "<group>"; };
+		A75D0A061A28F698007FA74A /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		A75D0A071A28F698007FA74A /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		A75D0A091A28F6AD007FA74A /* KStressMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KStressMainViewController.h; sourceTree = "<group>"; };
+		A75D0A0A1A28F6AD007FA74A /* KStressMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KStressMainViewController.m; sourceTree = "<group>"; };
+		A75D0A0B1A28F6AD007FA74A /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		A75D0A0C1A28F6AD007FA74A /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		A75D0A0F1A28F6AD007FA74A /* KStressSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KStressSignInViewController.h; sourceTree = "<group>"; };
+		A75D0A101A28F6AD007FA74A /* KStressSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KStressSignInViewController.m; sourceTree = "<group>"; };
+		A7C491E41A290BF000752397 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		A7C491E61A290BFD00752397 /* AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		A7C491E91A290FF300752397 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		A7C491EA1A29106300752397 /* Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		A7C491EB1A29106B00752397 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		A7C491ED1A29119700752397 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		A7E48C2F1A2960AA00C03AAB /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A7E48C301A2960AA00C03AAB /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A7E48C331A2979B300C03AAB /* NSArray+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MD5.h"; sourceTree = "<group>"; };
+		A7E48C341A2979B300C03AAB /* NSArray+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MD5.m"; sourceTree = "<group>"; };
+		A7E48C351A2979B300C03AAB /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		A7E48C361A2979B300C03AAB /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		A7E48C371A2979B300C03AAB /* NSDate+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MD5.h"; sourceTree = "<group>"; };
+		A7E48C381A2979B300C03AAB /* NSDate+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MD5.m"; sourceTree = "<group>"; };
+		A7E48C391A2979B300C03AAB /* NSDictionary+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MD5.h"; sourceTree = "<group>"; };
+		A7E48C3A1A2979B300C03AAB /* NSDictionary+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MD5.m"; sourceTree = "<group>"; };
+		A7E48C3B1A2979B300C03AAB /* NSNumber+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MD5.h"; sourceTree = "<group>"; };
+		A7E48C3C1A2979B300C03AAB /* NSNumber+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MD5.m"; sourceTree = "<group>"; };
+		A7E48C3D1A2979B300C03AAB /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		A7E48C3E1A2979B300C03AAB /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		A7E48C451A2979F200C03AAB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A7E48C461A2979F200C03AAB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A7E48C471A2979F200C03AAB /* NSData+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Description.h"; sourceTree = "<group>"; };
+		A7E48C481A2979F200C03AAB /* NSData+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Description.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CD51A59D268495CE331F7F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600433CCE6233E2C43C2F6CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6172E124D1F80C60B45F3679 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A75D09D31A28F441007FA74A = {
 			isa = PBXGroup;
 			children = (
 				A75D09DE1A28F441007FA74A /* KinveyStress */,
 				A75D09F81A28F441007FA74A /* KinveyStressTests */,
 				A75D09DD1A28F441007FA74A /* Products */,
+				DD4614111F8A77A48A6458BE /* Pods */,
+				600433CCE6233E2C43C2F6CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +141,11 @@
 		A75D09DE1A28F441007FA74A /* KinveyStress */ = {
 			isa = PBXGroup;
 			children = (
-				A75D09E31A28F441007FA74A /* AppDelegate.h */,
-				A75D09E41A28F441007FA74A /* AppDelegate.m */,
-				A75D09E61A28F441007FA74A /* ViewController.h */,
-				A75D09E71A28F441007FA74A /* ViewController.m */,
 				A75D09E91A28F441007FA74A /* Main.storyboard */,
 				A75D09EC1A28F441007FA74A /* Images.xcassets */,
-				A75D09EE1A28F441007FA74A /* LaunchScreen.xib */,
+				A7C491E71A290C5100752397 /* Main */,
+				A7C491E81A290C5900752397 /* Launch */,
+				A7E48C321A29794000C03AAB /* Basic Type Categories */,
 				A75D09DF1A28F441007FA74A /* Supporting Files */,
 			);
 			path = KinveyStress;
@@ -96,8 +154,15 @@
 		A75D09DF1A28F441007FA74A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A75D09E41A28F441007FA74A /* AppDelegate.m */,
+				A75D09E31A28F441007FA74A /* AppDelegate.h */,
+				A7C491E91A290FF300752397 /* Global.h */,
+				A7C491ED1A29119700752397 /* Types.h */,
+				A7C491EA1A29106300752397 /* Project.h */,
+				A7C491EB1A29106B00752397 /* Project.m */,
 				A75D09E01A28F441007FA74A /* Info.plist */,
 				A75D09E11A28F441007FA74A /* main.m */,
+				A75D0A051A28F67C007FA74A /* KinveyStress.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +184,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A7C491E71A290C5100752397 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7C491E41A290BF000752397 /* AddressBook.m */,
+				A7C491E61A290BFD00752397 /* AddressBook.h */,
+				A75D0A091A28F6AD007FA74A /* KStressMainViewController.h */,
+				A75D0A0A1A28F6AD007FA74A /* KStressMainViewController.m */,
+				A75D0A0F1A28F6AD007FA74A /* KStressSignInViewController.h */,
+				A75D0A101A28F6AD007FA74A /* KStressSignInViewController.m */,
+				A7E48C2F1A2960AA00C03AAB /* Contact.h */,
+				A7E48C301A2960AA00C03AAB /* Contact.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A7C491E81A290C5900752397 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A75D09EE1A28F441007FA74A /* LaunchScreen.xib */,
+				A75D0A061A28F698007FA74A /* LaunchViewController.h */,
+				A75D0A071A28F698007FA74A /* LaunchViewController.m */,
+				A75D0A0B1A28F6AD007FA74A /* NavigationController.h */,
+				A75D0A0C1A28F6AD007FA74A /* NavigationController.m */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		A7E48C321A29794000C03AAB /* Basic Type Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A7E48C451A2979F200C03AAB /* NSData+Base64.h */,
+				A7E48C461A2979F200C03AAB /* NSData+Base64.m */,
+				A7E48C471A2979F200C03AAB /* NSData+Description.h */,
+				A7E48C481A2979F200C03AAB /* NSData+Description.m */,
+				A7E48C331A2979B300C03AAB /* NSArray+MD5.h */,
+				A7E48C341A2979B300C03AAB /* NSArray+MD5.m */,
+				A7E48C351A2979B300C03AAB /* NSData+MD5.h */,
+				A7E48C361A2979B300C03AAB /* NSData+MD5.m */,
+				A7E48C371A2979B300C03AAB /* NSDate+MD5.h */,
+				A7E48C381A2979B300C03AAB /* NSDate+MD5.m */,
+				A7E48C391A2979B300C03AAB /* NSDictionary+MD5.h */,
+				A7E48C3A1A2979B300C03AAB /* NSDictionary+MD5.m */,
+				A7E48C3B1A2979B300C03AAB /* NSNumber+MD5.h */,
+				A7E48C3C1A2979B300C03AAB /* NSNumber+MD5.m */,
+				A7E48C3D1A2979B300C03AAB /* NSString+MD5.h */,
+				A7E48C3E1A2979B300C03AAB /* NSString+MD5.m */,
+			);
+			name = "Basic Type Categories";
+			sourceTree = "<group>";
+		};
+		DD4614111F8A77A48A6458BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54E91081701B82D611D1B0CB /* Pods.debug.xcconfig */,
+				6657CFF4C6FDD0A919F0F4AD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75D09FF1A28F441007FA74A /* Build configuration list for PBXNativeTarget "KinveyStress" */;
 			buildPhases = (
+				DF7395454CDCA077CE060C48 /* Check Pods Manifest.lock */,
 				A75D09D81A28F441007FA74A /* Sources */,
 				A75D09D91A28F441007FA74A /* Frameworks */,
 				A75D09DA1A28F441007FA74A /* Resources */,
+				D05A01F4DC90FEB0ED7E088B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +340,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D05A01F4DC90FEB0ED7E088B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7395454CDCA077CE060C48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A75D09D81A28F441007FA74A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75D09E81A28F441007FA74A /* ViewController.m in Sources */,
+				A7E48C401A2979B300C03AAB /* NSData+MD5.m in Sources */,
+				A75D0A141A28F6AD007FA74A /* KStressSignInViewController.m in Sources */,
+				A7E48C431A2979B300C03AAB /* NSNumber+MD5.m in Sources */,
+				A7E48C4A1A2979F200C03AAB /* NSData+Description.m in Sources */,
+				A7E48C3F1A2979B300C03AAB /* NSArray+MD5.m in Sources */,
+				A7C491E51A290BF000752397 /* AddressBook.m in Sources */,
+				A7E48C491A2979F200C03AAB /* NSData+Base64.m in Sources */,
 				A75D09E51A28F441007FA74A /* AppDelegate.m in Sources */,
+				A7C491EC1A29106B00752397 /* Project.m in Sources */,
 				A75D09E21A28F441007FA74A /* main.m in Sources */,
+				A7E48C411A2979B300C03AAB /* NSDate+MD5.m in Sources */,
+				A7E48C421A2979B300C03AAB /* NSDictionary+MD5.m in Sources */,
+				A75D0A121A28F6AD007FA74A /* NavigationController.m in Sources */,
+				A75D0A081A28F698007FA74A /* LaunchViewController.m in Sources */,
+				A7E48C441A2979B300C03AAB /* NSString+MD5.m in Sources */,
+				A7E48C311A2960AA00C03AAB /* Contact.m in Sources */,
+				A75D0A111A28F6AD007FA74A /* KStressMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +514,10 @@
 		};
 		A75D0A001A28F441007FA74A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E91081701B82D611D1B0CB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KinveyStress/KinveyStress.pch;
 				INFOPLIST_FILE = KinveyStress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +526,10 @@
 		};
 		A75D0A011A28F441007FA74A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6657CFF4C6FDD0A919F0F4AD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = KinveyStress/KinveyStress.pch;
 				INFOPLIST_FILE = KinveyStress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +589,7 @@
 				A75D0A011A28F441007FA74A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A75D0A021A28F441007FA74A /* Build configuration list for PBXNativeTarget "KinveyStressTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +598,7 @@
 				A75D0A041A28F441007FA74A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
