@@ -12,14 +12,7 @@
 
 
 // Note that we first get the number of seconds (NSNumber) since 1/1/1970 and then
-// compute the hash on that value.  This number of seconds is easier to work
-// with than a NSDate object when interfacing to Parse.com.
-//
-// We store dates at Parse as an NSNumber for easier hashing and to avoid any rounding
-// issues that Parse may introduce.
-// https://www.parse.com/questions/nsdate-truncated-from-its-native-timeintervalsincereferencedate-which-seems-to-include-nanoseconds
-//
-// See also PFObject+Utils.m
+// compute the hash on that value.
 //
 - (NSString *)MD5
 {

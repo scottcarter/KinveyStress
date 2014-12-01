@@ -462,8 +462,7 @@
         // Calculate primaryRecordId as hash on our records, excluding some fields.
         // Fields to exclude from our hash.
         //
-        // I exclude imageOriginal since this field is not sent to Parse, and thus Parse can't include it in any
-        // hash calculations.  imageThumbnail is included though.
+        // I exclude imageOriginal since this field is not sent to Kinvey.  imageThumbnail is included though.
         NSSet *exclusionSet = [NSSet setWithObjects:@"addressBookRecordId",@"creationDate",@"modificationDate", @"imageOriginal", nil];
         
         NSString *primaryRecordId = [addressBookPersonRecordDict MD5ExcludingKeysFromSet:exclusionSet];
