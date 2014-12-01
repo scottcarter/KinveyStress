@@ -45,6 +45,7 @@
 		54E91081701B82D611D1B0CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6172E124D1F80C60B45F3679 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6657CFF4C6FDD0A919F0F4AD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A7235F681A2C0CA000030FEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A75D09DC1A28F441007FA74A /* KinveyStress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveyStress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75D09E01A28F441007FA74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75D09E11A28F441007FA74A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +122,7 @@
 		A75D09D31A28F441007FA74A = {
 			isa = PBXGroup;
 			children = (
+				A7235F681A2C0CA000030FEF /* README.md */,
 				A75D09DE1A28F441007FA74A /* KinveyStress */,
 				A75D09F81A28F441007FA74A /* KinveyStressTests */,
 				A75D09DD1A28F441007FA74A /* Products */,
