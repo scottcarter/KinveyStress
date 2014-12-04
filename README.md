@@ -17,7 +17,7 @@ Populated records use pseudo-random data, repeatable between launches of the app
 
 ## Restrictions
 
-*This project is only intended for the Xcode simulator* as testing is destructive to the Address Book contents.
+**This project is only intended for the Xcode simulator** as testing is destructive to the Address Book contents.
 
 KinveyStress does make use of the macro IPHONE_SIMULATOR_DEVELOPMENT (defined in Global.h) to guard against accidental runs on a device.
 
@@ -26,11 +26,11 @@ KinveyStress does make use of the macro IPHONE_SIMULATOR_DEVELOPMENT (defined in
 
 I've borrowed the class AddressBook.m from my Contacts2Web app to provide the set of methods needed to manipulate the Address Book.  
 
-*Number of records*
+**Number of records**
 
 You can control how many records are populated to your Address Book in the simulator by setting the contant AddressBookNumEntriesToPopulateBeforeSave in AddressBook.m
 
-*Record characteristics*
+**Record characteristics**
 
 You can control how records are populated in the method populateAddressBookAction in KStressMainViewController.m. 
 
@@ -44,7 +44,7 @@ There are arguments for:
 Notes:
 - Only a few fields respond to the setting for allowSparseFields.  Search for this argument in AddressBook.m.
 - If random duplicates are allowed, they are created 5% of the time.  This can be changed in AddressBook.m.  Search for "NSUInteger percentage = 5"
-- Thumbnail images are created as text representations.
+- Thumbnails are created as text inside a JPEG image.
 
 
 ## Results
