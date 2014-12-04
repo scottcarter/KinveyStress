@@ -7,7 +7,7 @@ platform :ios, '8.1'
 source 'https://github.com/CocoaPods/Specs.git'
 
 
-pod 'KinveySignIn', :path => '~/Dropbox/Developer_iOS8/KinveySignIn'
+pod 'KinveySignIn', :git => 'https://github.com/scottcarter/KinveySignIn.git'
 
 pod 'SVProgressHUD', '1.0'
 
